@@ -89,3 +89,4 @@ Bu rehber, projeye katkıda bulunmak isteyenler için hazırlanmıştır.
 ## İletişim
 
 Sorularınız için Issues bölümünü kullanabilirsiniz. 
+menesahin99@gmail.com bu adrese notlarınızı atabilirsiniz.
