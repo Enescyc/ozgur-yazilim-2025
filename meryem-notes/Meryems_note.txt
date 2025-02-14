@@ -1,15 +1,15 @@
 Hocamız Hakan UYGUN ; Mikroservisler ile Devops Notları ; Mustafa Akgül Özgür Yazılım 2025 Kış Kampı Eskişehir ; Meryem GELEN ;
 //10.02.2025 Pazartesi
-neden rancher değil de openshift? Satın alınmış ben de kullanacağım tamam haklı bir gerekçe
+Neden rancher değil de openshift? Satın alınmış ben de kullanacağım tamam haklı bir gerekçe
 Uygulama yapmayacağız Temel Mimarı Anlatacağım
 Gerçekten mikroservis kullanmalı mısınız?
 Özgür Yazılım Nedir?
-Sahipsiz Lisanssız değildir Açık Kaynak kodludur. İnceleyebilir okuyabilir değiştirebilir dağıtabilirsiniz.
+Sahipsiz Lisanssız değildir Açık Kaynak kodludur. İnceleyebilir, okuyabilir, değiştirebilir, dağıtabilirsiniz.
 genel kamu lisansı ile değişiklik yaptıysanız siz de o lisans ile vermelisiniz.
 public lisans gibi lisanslarda mozilla public lisansta referans vermen lazım ibaresi vardır. 
 creative commons lisansları var CC BY Atıf (Attribution) iconlar fontlar fotoğraflar bazı js kütüphaneleri
 bunlar içerik lisansları by cc bunların ne olduğuna bakmalı lisans ihlali yapmamalısınız.
-benim adımı geçirmelisiniz tarzında noncomercial ibaresi varsa ücretli bişey yapacaksanız onu kullanamaz satamazsınız
+benim adımı geçirmelisiniz tarzında noncomercial ibaresi varsa ücretli bişey yapacaksanız onu kullanamaz, satamazsınız
 kod geliştirirken internetten bulduğunuz bişeyi pata küte kodunuza gömemezsiniz arkadaşlar
 o lisansa telife uymalısınız
 copilot tarzı kod üretme yapay zeka papağan kodu nereden getirdiğine dair geliştiricileri de bilmiyor bu sebeple davalar başladı
@@ -102,7 +102,7 @@ html bir dil yazalım tarayıcı göstersin a href link var başka makaleyi gös
 ve bir protocol yazalım http yazıldı böyle başladı
 biraz da read only yerine bilgi girelim dediler html formlar başladı
 sonra tarayıcı kavgaları başladı
-netscape ve internet explorer arasında kavga başladı w3c consortium dinlemedi kafalarına göre taglar oluşturdu. netscape batttı yerine mozilla firefox kuruldu.
+netscape ve internet explorer arasında kavga başladı w3c consortium dinlemedi kafalarına göre taglar oluşturdu. netscape battı yerine mozilla firefox kuruldu.
 internetexplorer yerine chrome sonra safari 
 google chrome, fena değilmiş dedi safarinin kullandığı temelindeki kht kodunu kullandı ve geliştridi  
 
@@ -159,7 +159,7 @@ stok servisi ile konuşabilmeli
 ödeme sistemine haber verme kısmına gideceğim konuşmam gereken başka servisler var
 stok servisinin bana api sağlaması gerekiyor
 ekipler contracts üzerinde baştan anlaşır
-bu yüzden otomatik entegrasyon testlerine ihtiyacınız var, kontractı yanlış anlayığ yanlış implementasyon yaptıysanız misal
+bu yüzden otomatik entegrasyon testlerine ihtiyacınız var, kontraktı yanlış anlayıp yanlış implementasyon yaptıysanız misal
 
 product jre yeter
 geliştirme ortamına jdk jre gerek
@@ -223,7 +223,7 @@ rolebase access control yaptınız önden tanımlayarak
 
 jwt içine rolleri de göüyor yetkilendirmeyi de oauth ile yapıyorsunuz
 
-kullanıcı hangi yetkilere sahip olduğunu tutmak için ek tabla tutmanız gerekir ıdm üründe
+kullanıcı hangi yetkilere sahip olduğunu tutmak için ek table tutmanız gerekir ıdm üründe
 
 -- öğleden sonra
 
@@ -373,7 +373,7 @@ wlan llan loopback ve üzerine sanal makine engine ayağa kaldırınca içinde a
 dolayısıyla size 255.255... kaldı
 
 sanal ağlar nereden problem yaratıyor geliştiricilere
-ipler bağlı olduğu routing tsblosu ve firewall vardır prodcutionda çalışmazsa ipler arasında routing açık değildir, binding yapılmamıştır, firewall portu kapamıştır yani bir parça da network ihtiyacınız var
+ip.ler bağlı olduğu routing tablosu ve firewall vardır productionda çalışmazsa ip.ler arasında routing açık değildir, binding yapılmamıştır, firewall portu kapamıştır yani bir parça da network ihtiyacınız var
 
 servisleri doğrudan doğruya ip ile tanımlamayın domain name olsun
 etc dosyasına yazın domain name.ler üzerinden koşun ve adam gibi isim verin s001 ismi ip.den daha okunaklı değil :D
@@ -381,7 +381,7 @@ etc dosyasına yazın domain name.ler üzerinden koşun ve adam gibi isim verin 
 bir de disk sanallaştırma kısmı var
 rate 0 2 disk 
 rate10 6 disk 300gblık 6 disk takmam lazım ki ..
-dolayısıyla LVM logical volume management os.ye şu kdar disk ekle mount et lvm e diyoruz ki genişle hala yerel işletim sisteminden bahsediyorum
+dolayısıyla LVM logical volume management os.ye şu kadar disk ekle mount et lvm e diyoruz ki genişle hala yerel işletim sisteminden bahsediyorum
 donanımların kaç tane dsk yönetecek slotu olabilir
 NAS/SAN network area storage bu pcler size sadece disk alanı sağlıyor
 amazon s3 blob storage device  
@@ -396,7 +396,7 @@ kubernetes dağıtımları rancher openshift k3s vb
 
 docker compose birden fazla image 
 docker swarm çıktı sonradan 
-konteynerları yönetmek için birşey yazalım dedi google kubernetesi başlattı ama şimdi en çok kubernetes için kod yazan red hat.
+konteynerları yönetmek için birşey yazalım dedi google kubernetesi başlattı ama şimdi en çok kubernetes için kod yazan redhat.
 google, google cloud için lazım olan kadarını yazdı
 red hat rancher ile sürekli geliştirmeye devam ediyor
 
@@ -453,9 +453,9 @@ main ya da primary diyoruz
 primary db.ye tüm sorgularınız alırsınız başına bir iş gelirse diğerini devreye alırsınız
 
 LB      LB
-APP		APP + 1 + 2 
+APP	APP + 1 + 2 
 aktif	aktif
-DB		DB
+DB	DB
 aktif	pasif
 
 çökme gerekçesi diskte mi hata oldu donanım hatası mı os seviyesinde mi önce onu bulmalı
@@ -1269,6 +1269,276 @@ maven paralel derleme de yapar, sadece testleri derle de diyebilirsiniz, hatayı
 ideleriniz conf.larını okuyun yeteneklerini öğrenin arkadaşlar
 
 //13.02.2025 Perşembe
+xml bağımlılıklardan etki analizi 
+SBOM software bill of material
+kamu kurumları olmazsa olmaz dediği için çılgınlık haline geldi
+package-lock.json 'daki bütüüün bunları kullandım ile aynı aslında
+hazırladığınız helmler imagelar için de var SBOM
+ürünün bağımlı olduğu herşey, isimleri, sürümleri
+geliştiriciler bile sadece kendi kullandığı şeylerin bağımlılıgını biliyor, dolaylı olanları da var
+eğer düzgün bir paket sistemi ile bağımlılıklarınızı tanımladıysanız güvenlikçiler de bunları kolaylıkla açıklıklarına bakabiliyor
+daha açıklanmayan zero day açıklıklarını da planlayıp kolayca güncelleyebiliyorsunuz bu sayede
+penetration sızma testleri sırasında farkediliyor ki bu açıklıklar productionda kapatılmamış, çözülemezse CPU açıklıgında oldugu gibi herkese yayınlanıyor
+SBOMlar package.json gibi araçlardan tarıyor ve açıklıkları gösteriyor
+Nexusun enterprise sürümü de aynı şeyi yapar
+fourtyfive da sonar da yazdığıgınız kodun güvenlik açıklıklarını gösteriyor
+
+
+jboss4 10 yıl once redhatin desteğini sundugu bir sunucuyu kullanıyor bir banka açığı kapatmak için baştan yazıyorlar, 1.5 yıla yazacaklar. orda da redhatin kaynak kodları açık oldugu için redhati yamadık. 
+
+whiteflate hem javaEE hem jakartayı destekledi 5 yıl boyunca. javaEE'yi jakartaya geçirmemişler penetration teslerinde açıklıklar çıktı. Yeniden yazmaya kadar vardı iş.
+çalışıyorsa dokunma dışında bu açıklıkların giderilmesi lazım.
+bir uygulamanın ömrü 6-8 yıl arası
+
+e-imza implementasyonu için 2 ay üzerinde farklı ister oldu 2 aydaha verdik bitti 3 yıl sonra yeniden beni buldular. yaptık bitti. 2 yıl sonra tekrar geldiler:D
+java appletler kullanılıyor java 8 de bile applet yok. tarayıcılar bile desteklemiyor. applet derlemek için ortamı hazırlamak bile çok sürdü. geliştirme ortamını kurmak bile çok problemli oldu. bunun yerine bazen baştan yazmanız bile daha iyi olabilir. bir sürüm geriden gelinir ama on sürüm geriden gelinmez.
+
+image güvenliği de önemli alphine os içine image içine ne gömer acaba docker hub.dan aldıklarınızın da güvenliği önemli artık
+kullanmadığınız hiç bir servis o sistemin içinde yer almamalı.
+
+-npm kütüphanesi içinde bilmediğimi crypto paketler vardı için miner paketleri gömmüşler eğer diskinizde cüzdanınız varsa npm install dediğinizde bitmişti, zombi bilgisayar sayısının haddi hesabı yok 
+
+tekir bilgisayar hata ve düzeltmesini yayınladık ama hala hata olduguna dair dönütler alıyorduk meğer indircom gibi biryerden indiriyorlarmış içine herşey gömebilirler
+
+apache sitesinden paket indirieceksiniz en basitinden paket linki md5 sha1 bilgisini yazıyor altına eşit olup olmadıgına bakmanız gerekiyor
+paket imzalarını kontrol etmek gerekiyor
+
+e imza nasıl çalışır indiridğiniz sertifika ile anahtarınız kontrol ediliyor sertifika geçerliğini onaylıyorsa tamam
+public key 
+private key 
+birşeyi private key anahtarı ile cryptoladı isem public key ile açabilirim sadece, işin matematiği asal sayıları kullanıyor kocaman kocaman asal sayılar
+private key'i güvende tutmalı ve kimse ile paylaşmamalısınız
+e-imza sırasında size usb verirler içinde smartkey vardır
+private kimseye vermeyim public keyi dağıtacaksınız
+e-posta sistemlerinde kullanmamız farz oldu artık, PGP GPG (GNU privacy guard) , benim epostayı göndereceğim kişide benim public anahtarım var karşı tarafın anahtarı ile cryptoluyorum.
+
+TurkTrust komu kurumuna kök sertifika vermiş bunlar da googleın sertifalarını taklit etmiş google tarayıcı sebebiyle bunları sobeledi.
+bu sebeple cafe otel wifi vs kullanmayın
+
+ISP konusu suyun başında oturup irlandada veri geçişini dinleyen birileri var, Türkiyede üç tane vardı biri koptu internet de yavaşladı.
+sizin ISP'niz size verdiği ip karşılıgında dinlemek zorunda
+http protokolünde açık şekilde veri
+telnet tüm protokol humanreadable zaten
+SSL ile handshake oldugunda ipler görülse bile içindeki veri görünmez
+md5ler hızlı ama güvensiz kırması mümkün
+GPUlar geliştikçe crypto algoritmalarının çoğu güvensiz artık
+sha1 sha5 bunların algoritması aynı sadece bit sayısı farklı
+ssl 512den 1024e çıkacak artık
+geçtiğimiz yılda opensslde 25 yıldır varolan açık bulundu, hemen kapattılar güncelleyenler güncelledi
+XKCD karikatür sitesi var :D
+curl kütüphanesi var abi tek başına yazıyor, Daniel Stenberg, http2 http3 protokollerini yazan kişide iyi lakin internetteki herşey tek bir kişinin yazdıgı curl üzerinde duruyor
+
+//mola sonrası 5 dk geçikme
+UAT (kullanıcı kabul testi) ortamı preprod.da otomatik deployment yapacagınız kısım burası
+canlı ve preprod arasında ortam farkı olabilir ancak bu configürasyonla yapılabilir olması yeniden derlenmemeli aynı binary gitmeli.
+yeni kodlarla yeni hatalar mutlaka gelir o yüzden preprodda test ettiğiniz şeyi canlıya koymalısınız.
+dbler arasında data farkı olur ama schema farkı olmamalı.
+birim testi üstüne test seneryosu ile fonksiyonel test de yapılmalı, 
+apiler üzerinde http request json çıktısı derken postmande bu kolay
+bir adım sonrası entegrasyon sistemidir, otomatize edilmesi her zaman mümkün olmayabiliyor,size verilen saop test apisi düşünün e-reçete sisteminizi o apiyi kullanarak test edeceksiniz diyelim test ortamı eskide kaldı ya da kapalı.
+en basitinden selenium testlerinizin olması bile bir adım
+canlıda yapılabilecek test, yük testidir.
+test yazmak da değil özellikle temporal data varsa, uçak kalkış saati yaklaştıkça bilet fiyatı değişir, buna uygun kod yazmak hayli yorucu oldu.
+factory girl random test datası üretmek için kullanılan bir kütüphane
+test ortamınızı dinamic bir şekilde çalıştırmak için TestContainers var, kullanın. Junit vs diğer dillerle entegrasyonu var bunun.
+alternative kubernetes tarafında bir pod kaldır işim bitince kapat.
+yazdığınız kodu test edilebilir şekilde yazmalı parçamalısınız.
+karmaşıklık oranı cyclomatic complexity oranı diye birşey var. fonksiyon seviyesinde birim karmaşıklığını ölçmek için kullanılır.
+if end oranı 4ü geçiyorsa cyclomatic complexity oranı  artar bir daha bakın kodunuza.
+teknik borç (tecnical dept) diye bir metaphor var, kodu düzeltmediğiniz sürece borcunuz artar
+
+:preproda en güncel hali mi yükledik? hayır release branchten çıktınız versiyona diyelim yeni özellikleri eklemediniz main branchte en güncel hali.
+
+TDD test driven development
+BDD behaviour driven development
+
+ruby function call yapmaz message sent yapar? TDD yapmanızı öneririm önce testi yazıp sonra kodu yazıp bunu geçmesini bekliyorsunuz, maliyet zaman problemli yapabilir tabi test senaryonuzun doğru sayıldıgı iyi ihtimalle
+en basit toplama senaryosu 7-8 tane birim test kodu var, doğru sonuç hatalı sonuç derken test yazma maliyeti yüksek
+
+BDD sistem analizi yaparken usecase yazın cucumber kütüphanesi Gherkin dili automated acceptance test tool
+
+Deploymentta ortaya çıkan bir sorun productiondaki ve test için kullanılan ortamlarda donanımsal farklar da var
+bu farklar nedeniyle de sorun çıkabiliyor
+uygulamanızın ihtiyaç duyduğu kaynaklarda ram cpu threadpoolum ne kadar olacak gibi ayarlar preprod ve canlıda fark eder tüm bunları environments variable.dan almalı, external dışarıdan alınması kodun içine gömmemesi gerekiyor. sample uzantısı ile gite gönderebilirsiniz.
+kubernetes ortamında mikroservis mantıgında söylüyorum mümkünse merkezi conf aracı seçin spring cloud config server, zookeeper, consul HashiCorp, kubernetes configmap gibi yerlerde tutulması lazım konfigürasyonların.
+
+configmap secretmap var kuberneteste bu credentialların saklandığı o yüzden cı içinde olmamalı.
+keepass gibi uygulamalar kullanabilirsiniz telefonunuzda password txt diye açık açık yazmayınız
+aws key githuba atmışlar beş dakika sürmez almaları on bin dolarlık fatura gelebilir, geri düzeltmişler ama her zaman bu kadar şanslı olmazsınız.
+
+:configmap test için configmap içn ne yapmalı?
+ben gitte branch açıyorum test production vs
+yml içinden de bunu yapabilirsiniz
+
+git; linklist yapısında her commit kendi parentının IDsini taşıyor, dolayısıyla gitte commit silemezsiniz.
+Son node son committeki şeyde değişiklik yapabilirsiniz, yerel git reposunda yapabilirsiniz
+revert tersine commit atıyor
+id,committer, author
+|
+diff/patch
+|
+
+paralo vs attıgınızda silinmez.
+commitin hashını binarysini sha5ini vs yapmak gibi en zor haliyle mümkün legacy yöntem var
+
+git kullanmak kritik hale gelmiş durumda, localde de iki farklı remote yaparak çalışabilirsiniz. varlıgından haberiniz olmayan şey yoktur.
+var oldugunu bilseniz gerisini arar dener uygularsınız
+git için faydalı bir site; 
+https://learningitbbranching.js.org
+
+
+rfc request for comment // şuna bakın bir yorumlasanıza demek
+internet mail extencions (mime) typeın rfc konusunu araştır.
+
+bu git işleri kubernetes.te nasıl yapılır gitops ile
+kubernetesin kendi verdiği api var, bu yetenekleri kullanarak yapılan uygulamalara knative denir.
+rest api davranışı nasıl
+get ıd verirseninz bir nesne alırsınız
+get query 
+post create
+put update
+delete delete işlemi şeklinde bir seri api var, bunun arkasında da kubernetes nesnelerimiz var
+bu nesleri kullanarak, postman aracı vs ile siz de bu api çağrılarını kullanarak kendiniz de yazabilirsiniz.
+
+kuberneteste çok düzgün tanımlanmış model ve controller var.
+POST /deploy apisine json post ediyorum controller bu modeldeki bilgiyi okuyor ve ne yapacaksa yapıyor.
+kubernetes controller vs gibi hazır nesneleri kendimiz de implement edebiliyoruz custom resource definition (CRD) deniyor buna.
+
+apache camel'ın knative yapısı var Kamelets - Apache Camel
+kuberneteste buna operator deniyor. openshift bu operator patternini çok kullanır. 
+tekton diye doğrudan kubernetese gömülmüş bir cı/cd aracı var tüm süreci siz de custom resource oluşturup kubernetese koyup traffic rulelarını bazıp knative yapabilirsiniz şuanki bazı apigatewayler böyle çalışıyor
+
+test için ayrı kubernetes clusterları kurmaya ihtiyacınız var.
+openshift router üzerine bişey kurduysanız onu alıp rancherde koşamazsınız artık openshifte bağımlı hale geldiniz demektir.
+geçtiğimiz yıllarda kubernetes çok sık api kırıyordu. artık experimentalları önceden söylüyor değişecek depricate oldu o apiyi kullanma biçiminizi değiştirin diyor
+
+operator patterni ile bişey kurmaya o yüzden helm'i tercih ediyorum, paket sistemi, npm maven nuget yönetebildiğimiz gibi helm de yönetiyoruz ama yaml dosyalarını yönetemiyoruz, git gitops kullanabilirsiniz.
+
+git -> jenkins -> k8s
+jenkins içindeki seed job var bu güncellenince çalış diyorsunuz kendi içindeki joblistleri tetikliyor
+
+mono repo yapın ya da dağıtın
+eğer ki kuralları başta koymazsanız dağılır, sürdürülebilirlik ve bakım zorlaşır.
+
+IT dünyasında random iş yapmak zordur ve birşeye isim vermek zordur, sınıfa, değişkene, ürüne..
+isimlendirme kuralı ile yola çıkmanız gerek
+meyve ismi , balık ismi kullandık saçma olması önemli değil uniqe isim verirken düşünmüyorlar sunucuya s001den daha anlamlı
+log in to SonarQube adımız https://davut.ozguryazilim.com.tr
+
+PKCS-11
+PKCS-12 arasında benzerlik yok 12 public key saklama deposu diğeri o public keylerin hede standartının deposu
+fonksiyonalite de olabilir isim seçiminde payment ödeme vs 
+
+İzleme Monitoring araçlarınızı kurmak ve bağlamak da bu otomasyonun parçası
+işletim sistemi yazılım donanımlarınızı izleyeceksiniz mikroservisle cı/cd'ye geçirince düzenli izleme continuous monitoring deniyor bunun da yüklerken hepsini izleyecek şekilde ayarlanması gerekiyor, sorun izlemediğiniz sistemde çıkmasın sonra :D
+
+merkezi log tutma sistemlerinize otomatik log tutma yapmanız lazım
+
+openshift bundle prometheus ile beraber gelir
+rancher helm prometheus grafana kurarım bağlarım diyebilirsiniz.
+bütün herşeyi izleme maliyeti çok olacagı için bazen örnek küme replica seçilir ama genelde sorun izlenmeyen üzerinden çıkar
+yine de hiç izlememektense bir kısmını izleyin
+spring opentracing ile destekli gelir siz bir http client çağrısı yapınca prometheusa gönderir servlet çağrısı yapınca dinler gönderir otomatik yapar
+tüm loglama sistemlerinin bir de housekeepinge ihtyacı var ne kadar saklayacağız, ne kadar saklamaya izin var ya da boyut ne kadar izin veriyor buna göre birşey çıkarmalısınız
+
+bilet satımında 1 yıllık request responseları saklıyor davalar olabiliyor,,
+sadece bir gün tutmanızın hiç anlamı yok hiç tutmayın, anomali tespit ederken geçmiş veriye ihtiyacım var geçen haftayı oturup inceleyeceğim vs
+erişim güvenliği nerede nasıl saklanacak gibi sorunlar da var, maskeleme yapmanız gerekebilir, 
+
+libre office online ile ortak çalışma collobration yapabilirsiniz
+opensuse linux distrosunu kullanıyoruz masaütünde, çünkü düzgün KDE dağıtımı hazırlarlar, gnome sevemedim ama ubuntu da iyidir 
+Snap, Ubuntu Linux dağıtımlarında da kullanılabilen yazılım paketleme biçimidir. Snap biçiminde paketleniş uygulamalar uygulama mağazası üzerinden kurulup kaldırılabilir.
+Postfix Mail Sunucusu kullanıyoruz
+kurumlar müşteri redhat peşinden gidince mecburen centos rocky vs kullanıyoruz
+ben zaten bir kere konfigüre edip heryere kullanıyorum çünkü ansible kullanıyorum
+:rocky 9.5 9.4 versiyonlarında kernel problemi yaşıyor musunuz Hocam?
+:yapay zeka hakkında ?
+mayısa dek ai içeren uygulama teslim etmek gerekiyor ama ai'den kasıt ney
+heuristic algorithms koymak yeterli deeplearning machine learning mi herhangi bir neural network koymak yeterli mi yapay sinir ağlarını doğal dil işleme için kullanmak amaçlanıyor
+en bariz ve en çok tartışılanı fikri mülkiyet hakkı
+bir de yapay zekayı eğittiğimiz bilgiyi filtreleyecek miyiz, biz ne kadar doğruyuz internet yalan haberle dolu, ya da ırkçılık yapan kesimle eğitilir de yapay zeka da öyle olursa?
+motivasyonumuz topluluktan aldığım bilgiyi topluma geri vermek bilgi paylaştıkça çoğalır bir matematik formulü kişiye ait olamaz
+anime vlogu: https://22dakika.org/gec-kalmis-yaz-posketi-serisi/comment-page-2/
+//Ders Sonu
+
+1. Mikroservis Mimarisi Nedir?
+Mikroservis mimarisi, büyük ve karmaşık yazılım sistemlerini küçük, bağımsız ve modüler hizmetlere (servisler) bölerek yönetmeyi amaçlayan bir mimari yaklaşımdır. Her mikroservis, belirli bir işlevi yerine getirir ve diğer servislerle API'ler aracılığıyla haberleşir.
+1.1 Mikroservislerin Temel Özellikleri
+Bağımsız Geliştirme ve Dağıtım: Her servis bağımsız olarak geliştirilebilir ve dağıtılabilir.
+Ölçeklenebilirlik: Gerektiğinde belirli servisleri yatay olarak ölçekleyebilirsiniz.
+Bağımsız Veri Yönetimi: Her servis kendi veritabanına sahiptir.
+Farklı Teknoloji Kullanımı: Her mikroservis, ihtiyacına uygun farklı bir teknoloji kullanabilir.
+1.2 Gerçekten Mikroservis Kullanmalı mıyız?
+Mikroservisler, büyük ve ölçeklenebilir sistemler için avantajlar sunsa da, bazı projeler için gereksiz karmaşıklık yaratabilir.
+Ölçekleme ihtiyacı yoksa: Tek bir uygulama yeterliyse, monolitik yapı daha verimli olabilir.
+Sürekli dağıtım ve güncelleme gerektirmeyen sistemler için: Mikroservislerin dağıtımı ve yönetimi karmaşıktır.
+Bağımlılıklar yönetilemeyecek seviyede ise: Mikroservisler, bağımlılıklar nedeniyle daha fazla operasyonel yük getirebilir.
+2. Servisler ve İletişim Yöntemleri
+2.1 Servis Türleri
+Bir yazılım bileşeni, farklı sistemlerin veya modüllerin birbirleriyle haberleşmesini sağlayan bir arabirim sunar. Servisler aşağıdaki türlerde olabilir:
+SoA (Service-Oriented Architecture): Büyük kurumsal sistemlerde kullanılır.
+RPC (Remote Procedure Call) / RMI (Remote Method Invocation) / IPC (Inter-Process Communication): Düşük seviyede işlem çağırma yöntemleridir.
+Web Servisler: İletişim standartları HTTP, SOAP, REST, gRPC kullanır.
+2.2 REST, SOAP ve gRPC Karşılaştırması
+SOAP: XML tabanlıdır, karmaşık güvenlik mekanizmaları sunar.
+REST: Hafif, JSON/XML destekler, HTTP metodlarını kullanır.
+gRPC: Yüksek performanslı, binary protokol kullanır, büyük ölçekli sistemler için idealdir.
+3. Dağıtık Sistemlerde Veri Yönetimi
+3.1 Veritabanı Yönetimi
+Her mikroservisin kendi veritabanı olmalı (Database per Service).
+Ortak veritabanı kullanımı, bağımsızlık ilkesini ihlal eder.
+NoSQL (MongoDB, Redis) ve SQL (PostgreSQL, MySQL) kullanımı proje gereksinimlerine göre belirlenmeli.
+3.2 Dağıtık Transaction Yönetimi
+Mikroservisler arasında transaction yönetmek zor olabilir. Bunu sağlamak için:
+Saga Pattern: Dağıtık transaction yönetimi için kullanılır.
+Event Sourcing: İşlemler kaydedilir ve geri alınabilir.
+Change Data Capture (CDC): Veri değişikliklerini izleme ve senkronizasyon sağlar.
+4. API Yönetimi ve Servis Keşfi
+4.1 API Gateway Kullanımı
+Mikroservisler için API Gateway kullanımı aşağıdaki avantajları sağlar:
+Güvenlik ve yetkilendirme yönetimi (JWT, OAuth, API anahtarları).
+Yük dengeleme ve throttling (Belirli bir süre içinde gelen istekleri kontrol etme).
+Cacheleme ve veri sıkıştırma (Veri transferini optimize etme).
+Loglama ve izleme mekanizmaları (Trace ID, OpenTracing).
+4.2 Service Discovery
+Servislerin birbirini keşfedebilmesi için kullanılan sistemler:
+DNS tabanlı keşif: Kubernetes Service Discovery.
+Zookeeper, Consul, Eureka: Dinamik servis keşfi.
+5. Yüksek Erişilebilirlik ve Ölçeklenebilirlik
+5.1 Yüksek Erişilebilirlik İçin Kümeleme (Clustering)
+Replica Set (PostgreSQL, MongoDB): Verilerin çoğaltılması ve yük dengeleme.
+Failover Mekanizmaları: Patroni gibi araçlarla otomatik veri kurtarma.
+Load Balancer Kullanımı: İstekleri farklı sunuculara yönlendirme.
+5.2 Yük Testi ve Performans Optimizasyonu
+JMeter, Gatling ile yük testi yapılmalı.
+Network izleme araçları (Zabbix, Prometheus, Grafana) kullanılmalı.
+6. DevOps, CI/CD ve Otomasyon
+6.1 CI/CD Süreçleri
+Sürekli Entegrasyon (Continuous Integration - CI): Kodun düzenli olarak birleştirilmesi ve test edilmesi.
+Sürekli Dağıtım (Continuous Deployment - CD): Kodun üretim ortamına otomatik olarak dağıtılması.
+Jenkins, GitLab CI, Tekton, ArgoCD gibi araçlar kullanılmalı.
+6.2 Infrastructure as Code (IaC) ve GitOps
+Terraform ve Ansible ile altyapı otomasyonu.
+GitOps ile konfigürasyonların versiyonlanması ve yönetilmesi.
+7. Güvenlik ve Yetkilendirme
+7.1 Kimlik Doğrulama ve Yetkilendirme
+OAuth 2.0 ve OpenID Connect kullanımı.
+JWT (JSON Web Token) ile yetkilendirme mekanizmaları.
+LDAP ve Active Directory entegrasyonu.
+7.2 Güvenlik Açıkları ve Önlemler
+SQL Injection, XSS, CSRF gibi saldırılara karşı önlemler.
+OWASP Top 10 güvenlik açıklarına karşı bilinçli kod yazımı.
+Statik kod analizi araçları (SonarQube) ile güvenlik testleri.
+8. Sonuç ve Özet
+Mikroservisler, büyük ölçekli sistemler için birçok avantaj sunar, ancak yanlış kullanıldığında karmaşıklık ve operasyonel yük getirebilir.
+Mikroservisleri uygularken dikkat edilmesi gereken temel noktalar:
+Bağımsız servisler
+API yönetimi ve güvenlik
+Transaction ve veri tutarlılığı
+CI/CD ve DevOps entegrasyonu
+Yüksek erişilebilirlik ve ölçeklenebilirlik.
+
+
 
 
 
