@@ -1269,6 +1269,181 @@ maven paralel derleme de yapar, sadece testleri derle de diyebilirsiniz, hatayı
 ideleriniz conf.larını okuyun yeteneklerini öğrenin arkadaşlar
 
 //13.02.2025 Perşembe
+xml bağımlılıklardan etki analizi 
+SBOM software bill of material
+kamu kurumları olmazsa olmaz dediği için çılgınlık haline geldi
+package-lock.json 'daki bütüüün bunları kullandım ile aynı aslında
+hazırladığınız helmler imagelar için de var SBOM
+ürünün bağımlı olduğu herşey, isimleri, sürümleri
+geliştiriciler bile sadece kendi kullandığı şeylerin bağımlılıgını biliyor, dolaylı olanları da var
+eğer düzgün bir paket sistemi ile bağımlılıklarınızı tanımladıysanız güvenlikçiler de bunları kolaylıkla açıklıklarına bakabiliyor
+daha açıklanmayan zero day açıklıklarını da planlayıp kolayca güncelleyebiliyorsunuz bu sayede
+penetration sızma testleri sırasında farkediliyor ki bu açıklıklar productionda kapatılmamış, çözülemezse CPU açıklıgında oldugu gibi herkese yayınlanıyor
+SBOMlar package.json gibi araçlardan tarıyor ve açıklıkları gösteriyor
+Nexusun enterprise sürümü de aynı şeyi yapar
+fourtyfive da sonar da yazdığıgınız kodun güvenlik açıklıklarını gösteriyor
+
+
+jboss4 10 yıl once redhatin desteğini sundugu bir sunucuyu kullanıyor bir banka açığı kapatmak için baştan yazıyorlar, 1.5 yıla yazacaklar. orda da redhatin kaynak kodları açık oldugu için redhati yamadık. 
+
+whiteflate hem javaEE hem jakartayı destekledi 5 yıl boyunca. javaEE'yi jakartaya geçirmemişler penetration teslerinde açıklıklar çıktı. Yeniden yazmaya kadar vardı iş.
+çalışıyorsa dokunma dışında bu açıklıkların giderilmesi lazım.
+bir uygulamanın ömrü 6-8 yıl arası
+
+e-imza implementasyonu için 2 ay üzerinde farklı ister oldu 2 aydaha verdik bitti 3 yıl sonra yeniden beni buldular. yaptık bitti. 2 yıl sonra tekrar geldiler:D
+java appletler kullanılıyor java 8 de bile applet yok. tarayıcılar bile desteklemiyor. applet derlemek için ortamı hazırlamak bile çok sürdü. geliştirme ortamını kurmak bile çok problemli oldu. bunun yerine bazen baştan yazmanız bile daha iyi olabilir. bir sürüm geriden gelinir ama on sürüm geriden gelinmez.
+
+image güvenliği de önemli alphine os içine image içine ne gömer acaba docker hub.dan aldıklarınızın da güvenliği önemli artık
+kullanmadığınız hiç bir servis o sistemin içinde yer almamalı.
+
+-npm kütüphanesi içinde bilmediğimi crypto paketler vardı için miner paketleri gömmüşler eğer diskinizde cüzdanınız varsa npm install dediğinizde bitmişti, zombi bilgisayar sayısının haddi hesabı yok 
+
+tekir bilgisayar hata ve düzeltmesini yayınladık ama hala hata olduguna dair dönütler alıyorduk meğer indircom gibi biryerden indiriyorlarmış içine herşey gömebilirler
+
+apache sitesinden paket indirieceksiniz en basitinden paket linki md5 sha1 bilgisini yazıyor altına eşit olup olmadıgına bakmanız gerekiyor
+paket imzalarını kontrol etmek gerekiyor
+
+e imza nasıl çalışır indiridğiniz sertifika ile anahtarınız kontrol ediliyor sertifika geçerliğini onaylıyorsa tamam
+public key 
+private key 
+birşeyi private key anahtarı ile cryptoladı isem public key ile açabilirim sadece, işin matematiği asal sayıları kullanıyor kocaman kocaman asal sayılar
+private key'i güvende tutmalı ve kimse ile paylaşmamalısınız
+e-imza sırasında size usb verirler içinde smartkey vardır
+private kimseye vermeyim public keyi dağıtacaksınız
+e-posta sistemlerinde kullanmamız farz oldu artık, PGP GPG (GNU privacy guard) , benim epostayı göndereceğim kişide benim public anahtarım var karşı tarafın anahtarı ile cryptoluyorum.
+
+TurkTrust komu kurumuna kök sertifika vermiş bunlar da googleın sertifalarını taklit etmiş google tarayıcı sebebiyle bunları sobeledi.
+bu sebeple cafe otel wifi vs kullanmayın
+
+ISP konusu suyun başında oturup irlandada veri geçişini dinleyen birileri var, Türkiyede üç tane vardı biri koptu internet de yavaşladı.
+sizin ISP'niz size verdiği ip karşılıgında dinlemek zorunda
+http protokolünde açık şekilde veri
+telnet tüm protokol humanreadable zaten
+SSL ile handshake oldugunda ipler görülse bile içindeki veri görünmez
+md5ler hızlı ama güvensiz kırması mümkün
+GPUlar geliştikçe crypto algoritmalarının çoğu güvensiz artık
+sha1 sha5 bunların algoritması aynı sadece bit sayısı farklı
+ssl 512den 1024e çıkacak artık
+geçtiğimiz yılda opensslde 25 yıldır varolan açık bulundu, hemen kapattılar güncelleyenler güncelledi
+XKCD karikatür sitesi var :D
+curl kütüphanesi var abi tek başına yazıyor, Daniel Stenberg, http2 http3 protokollerini yazan kişide iyi lakin internetteki herşey tek bir kişinin yazdıgı curl üzerinde duruyor
+
+//mola sonrası 5 dk geçikme
+UAT (kullanıcı kabul testi) ortamı preprod.da otomatik deployment yapacagınız kısım burası
+canlı ve preprod arasında ortam farkı olabilir ancak bu configürasyonla yapılabilir olması yeniden derlenmemeli aynı binary gitmeli.
+yeni kodlarla yeni hatalar mutlaka gelir o yüzden preprodda test ettiğiniz şeyi canlıya koymalısınız.
+dbler arasında data farkı olur ama schema farkı olmamalı.
+birim testi üstüne test seneryosu ile fonksiyonel test de yapılmalı, 
+apiler üzerinde http request json çıktısı derken postmande bu kolay
+bir adım sonrası entegrasyon sistemidir, otomatize edilmesi her zaman mümkün olmayabiliyor,size verilen saop test apisi düşünün e-reçete sisteminizi o apiyi kullanarak test edeceksiniz diyelim test ortamı eskide kaldı ya da kapalı.
+en basitinden selenium testlerinizin olması bile bir adım
+canlıda yapılabilecek test, yük testidir.
+test yazmak da değil özellikle temporal data varsa, uçak kalkış saati yaklaştıkça bilet fiyatı değişir, buna uygun kod yazmak hayli yorucu oldu.
+factory girl random test datası üretmek için kullanılan bir kütüphane
+test ortamınızı dinamic bir şekilde çalıştırmak için TestContainers var, kullanın. Junit vs diğer dillerle entegrasyonu var bunun.
+alternative kubernetes tarafında bir pod kaldır işim bitince kapat.
+yazdığınız kodu test edilebilir şekilde yazmalı parçamalısınız.
+karmaşıklık oranı cyclomatic complexity oranı diye birşey var. fonksiyon seviyesinde birim karmaşıklığını ölçmek için kullanılır.
+if end oranı 4ü geçiyorsa cyclomatic complexity oranı  artar bir daha bakın kodunuza.
+teknik borç (tecnical dept) diye bir metaphor var, kodu düzeltmediğiniz sürece borcunuz artar
+
+:preproda en güncel hali mi yükledik? hayır release branchten çıktınız versiyona diyelim yeni özellikleri eklemediniz main branchte en güncel hali.
+
+TDD test driven development
+BDD behaviour driven development
+
+ruby function call yapmaz message sent yapar? TDD yapmanızı öneririm önce testi yazıp sonra kodu yazıp bunu geçmesini bekliyorsunuz, maliyet zaman problemli yapabilir tabi test senaryonuzun doğru sayıldıgı iyi ihtimalle
+en basit toplama senaryosu 7-8 tane birim test kodu var, doğru sonuç hatalı sonuç derken test yazma maliyeti yüksek
+
+BDD sistem analizi yaparken usecase yazın cucumber kütüphanesi Gherkin dili automated acceptance test tool
+
+Deploymentta ortaya çıkan bir sorun productiondaki ve test için kullanılan ortamlarda donanımsal farklar da var
+bu farklar nedeniyle de sorun çıkabiliyor
+uygulamanızın ihtiyaç duyduğu kaynaklarda ram cpu threadpoolum ne kadar olacak gibi ayarlar preprod ve canlıda fark eder tüm bunları environments variable.dan almalı, external dışarıdan alınması kodun içine gömmemesi gerekiyor. sample uzantısı ile gite gönderebilirsiniz.
+kubernetes ortamında mikroservis mantıgında söylüyorum mümkünse merkezi conf aracı seçin spring cloud config server, zookeeper, consul HashiCorp, kubernetes configmap gibi yerlerde tutulması lazım konfigürasyonların.
+
+configmap secretmap var kuberneteste bu credentialların saklandığı o yüzden cı içinde olmamalı.
+keepass gibi uygulamalar kullanabilirsiniz telefonunuzda password txt diye açık açık yazmayınız
+aws key githuba atmışlar beş dakika sürmez almaları on bin dolarlık fatura gelebilir, geri düzeltmişler ama her zaman bu kadar şanslı olmazsınız.
+
+:configmap test için configmap içn ne yapmalı?
+ben gitte branch açıyorum test production vs
+yml içinden de bunu yapabilirsiniz
+
+git; linklist yapısında her commit kendi parentının IDsini taşıyor, dolayısıyla gitte commit silemezsiniz.
+Son node son committeki şeyde değişiklik yapabilirsiniz, yerel git reposunda yapabilirsiniz
+revert tersine commit atıyor
+id,committer, author
+|
+diff/patch
+|
+
+paralo vs attıgınızda silinmez.
+commitin hashını binarysini sha5ini vs yapmak gibi en zor haliyle mümkün legacy yöntem var
+
+git kullanmak kritik hale gelmiş durumda, localde de iki farklı remote yaparak çalışabilirsiniz. varlıgından haberiniz olmayan şey yoktur.
+var oldugunu bilseniz gerisini arar dener uygularsınız
+git için faydalı bir site; 
+https://learningitbbranching.js.org
+
+
+rfc request for comment // şuna bakın bir yorumlasanıza demek
+internet mail extencions (mime) typeın rfc konusunu araştır.
+
+bu git işleri kubernetes.te nasıl yapılır gitops ile
+kubernetesin kendi verdiği api var, bu yetenekleri kullanarak yapılan uygulamalara knative denir.
+rest api davranışı nasıl
+get ıd verirseninz bir nesne alırsınız
+get query 
+post create
+put update
+delete delete işlemi şeklinde bir seri api var, bunun arkasında da kubernetes nesnelerimiz var
+bu nesleri kullanarak, postman aracı vs ile siz de bu api çağrılarını kullanarak kendiniz de yazabilirsiniz.
+
+kuberneteste çok düzgün tanımlanmış model ve controller var.
+POST /deploy apisine json post ediyorum controller bu modeldeki bilgiyi okuyor ve ne yapacaksa yapıyor.
+kubernetes controller vs gibi hazır nesneleri kendimiz de implement edebiliyoruz custom resource definition (CRD) deniyor buna.
+
+apache camel'ın knative yapısı var Kamelets - Apache Camel
+kuberneteste buna operator deniyor. openshift bu operator patternini çok kullanır. 
+tekton diye doğrudan kubernetese gömülmüş bir cı/cd aracı var tüm süreci siz de custom resource oluşturup kubernetese koyup traffic rulelarını bazıp knative yapabilirsiniz şuanki bazı apigatewayler böyle çalışıyor
+
+test için ayrı kubernetes clusterları kurmaya ihtiyacınız var.
+openshift router üzerine bişey kurduysanız onu alıp rancherde koşamazsınız artık openshifte bağımlı hale geldiniz demektir.
+geçtiğimiz yıllarda kubernetes çok sık api kırıyordu. artık experimentalları önceden söylüyor değişecek depricate oldu o apiyi kullanma biçiminizi değiştirin diyor
+
+operator patterni ile bişey kurmaya o yüzden helm'i tercih ediyorum, paket sistemi, npm maven nuget yönetebildiğimiz gibi helm de yönetiyoruz ama yaml dosyalarını yönetemiyoruz, git gitops kullanabilirsiniz.
+
+git -> jenkins -> k8s
+jenkins içindeki seed job var bu güncellenince çalış diyorsunuz kendi içindeki joblistleri tetikliyor
+
+mono repo yapın ya da dağıtın
+eğer ki kuralları başta koymazsanız dağılır, sürdürülebilirlik ve bakım zorlaşır.
+
+IT dünyasında random iş yapmak zordur ve birşeye isim vermek zordur, sınıfa, değişkene, ürüne..
+isimlendirme kuralı ile yola çıkmanız gerek
+meyve ismi , balık ismi kullandık saçma olması önemli değil uniqe isim verirken düşünmüyorlar sunucuya s001den daha anlamlı
+log in to SonarQube adımız https://davut.ozguryazilim.com.tr
+
+PKCS-11
+PKCS-12 arasında benzerlik yok 12 public key saklama deposu diğeri o public keylerin hede standartının deposu
+fonksiyonalite de olabilir isim seçiminde payment ödeme vs 
+
+İzleme Monitoring araçlarınızı kurmak ve bağlamak da bu otomasyonun parçası
+işletim sistemi yazılım donanımlarınızı izleyeceksiniz mikroservisle cı/cd'ye geçirince düzenli izleme continuous monitoring deniyor bunun da yüklerken hepsini izleyecek şekilde ayarlanması gerekiyor, sorun izlemediğiniz sistemde çıkmasın sonra :D
+
+merkezi log tutma sistemlerinize otomatik log tutma yapmanız lazım
+
+openshift bundle prometheus ile beraber gelir
+rancher helm prometheus grafana kurarım bağlarım diyebilirsiniz.
+bütün herşeyi izleme maliyeti çok olacagı için bazen örnek küme replica seçilir ama genelde sorun izlenmeyen üzerinden çıkar
+yine de hiç izlememektense bir kısmını izleyin
+spring opentracing ile destekli gelir siz bir http client çağrısı yapınca prometheusa gönderir servlet çağrısı yapınca dinler gönderir otomatik yapar
+tüm loglama sistemlerinin bir de housekeepinge ihtyacı var ne kadar saklayacağız, ne kadar saklamaya izin var ya da boyut ne kadar izin veriyor buna göre birşey çıkarmalısınız
+
+bilet satımında 1 yıllık request responseları saklıyor davalar olabiliyor,,
+sadece bir gün tutmanızın hiç anlamı yok hiç tutmayın, anomali tespit ederken geçmiş veriye ihtiyacım var geçen haftayı oturup inceleyeceğim vs
+erişim güvenliği nerede nasıl saklanacak gibi sorunlar da var, maskeleme yapmanız gerekebilir, 
 
 
 
