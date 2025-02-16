@@ -1384,7 +1384,7 @@ commitin hashını binarysini sha5ini vs yapmak gibi en zor haliyle mümkün leg
 git kullanmak kritik hale gelmiş durumda, localde de iki farklı remote yaparak çalışabilirsiniz. varlıgından haberiniz olmayan şey yoktur.
 var oldugunu bilseniz gerisini arar dener uygularsınız
 git için faydalı bir site; 
-https://learningitbbranching.js.org
+https://learngitbranching.js.org/
 
 
 rfc request for comment // şuna bakın bir yorumlasanıza demek
