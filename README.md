@@ -1,5 +1,8 @@
 # Özgür Yazılım Kampı 2025 - Mikroservisler ve DevOps Notları
 
+#### İletişim
+menesahin99@gmail.com bu adrese notlarınızı atabilirsiniz.
+
 Bu repo, Mustafa Akgül Özgür Yazılım 2025 Kış Kampı'nda Hakan UYGUN tarafından verilen "Mikroservisler ile DevOps" dersinin notlarını içermektedir.
 
 ## İçerik
@@ -19,19 +22,9 @@ Notlar aşağıdaki konuları kapsamaktadır:
 
 ## Dosyalar
 
-- `note-1.md`: 10-13 Şubat 2025 tarihleri arasındaki ders notları
-
 ## Katkıda Bulunma
 
-Bu notlar Meryem GELEN tarafından tutulmuştur. Düzeltme ve eklemeler için pull request açabilirsiniz.
-
-## Lisans
-
-Bu repo [MIT Lisansı](LICENSE) ile lisanslanmıştır. 
-
-
-
-
+Bu notlar Meryem GELEN ve Orkung tarafından tutulmuştur. Düzeltme ve eklemeler için pull request açabilirsiniz.
 
 
 # Pull Request Açma Rehberi
@@ -89,4 +82,3 @@ Bu rehber, projeye katkıda bulunmak isteyenler için hazırlanmıştır.
 ## İletişim
 
 Sorularınız için Issues bölümünü kullanabilirsiniz. 
-menesahin99@gmail.com bu adrese notlarınızı atabilirsiniz.

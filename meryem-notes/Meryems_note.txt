@@ -1384,6 +1384,7 @@ commitin hashını binarysini sha5ini vs yapmak gibi en zor haliyle mümkün leg
 git kullanmak kritik hale gelmiş durumda, localde de iki farklı remote yaparak çalışabilirsiniz. varlıgından haberiniz olmayan şey yoktur.
 var oldugunu bilseniz gerisini arar dener uygularsınız
 git için faydalı bir site; 
+
 https://learngitbranching.js.org/
 
 
@@ -1444,6 +1445,7 @@ tüm loglama sistemlerinin bir de housekeepinge ihtyacı var ne kadar saklayaca�
 bilet satımında 1 yıllık request responseları saklıyor davalar olabiliyor,,
 sadece bir gün tutmanızın hiç anlamı yok hiç tutmayın, anomali tespit ederken geçmiş veriye ihtiyacım var geçen haftayı oturup inceleyeceğim vs
 erişim güvenliği nerede nasıl saklanacak gibi sorunlar da var, maskeleme yapmanız gerekebilir, 
+
 
 libre office online ile ortak çalışma collobration yapabilirsiniz
 opensuse linux distrosunu kullanıyoruz masaütünde, çünkü düzgün KDE dağıtımı hazırlarlar, gnome sevemedim ama ubuntu da iyidir 
@@ -1537,10 +1539,6 @@ API yönetimi ve güvenlik
 Transaction ve veri tutarlılığı
 CI/CD ve DevOps entegrasyonu
 Yüksek erişilebilirlik ve ölçeklenebilirlik.
-
-
-
-
 
 
 
