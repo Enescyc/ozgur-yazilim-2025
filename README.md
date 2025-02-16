@@ -24,7 +24,7 @@ Notlar aşağıdaki konuları kapsamaktadır:
 
 ## Katkıda Bulunma
 
-Bu notlar Meryem GELEN ve Orkung tarafından tutulmuştur. Düzeltme ve eklemeler için pull request açabilirsiniz.
+Bu notlar Meryem GELEN ,Şule Celep ve Cavit Orkun Günay'ın katkılarıyla hazırlanmıştır.
 
 
 # Pull Request Açma Rehberi
