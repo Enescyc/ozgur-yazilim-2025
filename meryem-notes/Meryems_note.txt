@@ -1,15 +1,15 @@
 Hocamız Hakan UYGUN ; Mikroservisler ile Devops Notları ; Mustafa Akgül Özgür Yazılım 2025 Kış Kampı Eskişehir ; Meryem GELEN ;
 //10.02.2025 Pazartesi
-neden rancher değil de openshift? Satın alınmış ben de kullanacağım tamam haklı bir gerekçe
+Neden rancher değil de openshift? Satın alınmış ben de kullanacağım tamam haklı bir gerekçe
 Uygulama yapmayacağız Temel Mimarı Anlatacağım
 Gerçekten mikroservis kullanmalı mısınız?
 Özgür Yazılım Nedir?
-Sahipsiz Lisanssız değildir Açık Kaynak kodludur. İnceleyebilir okuyabilir değiştirebilir dağıtabilirsiniz.
+Sahipsiz Lisanssız değildir Açık Kaynak kodludur. İnceleyebilir, okuyabilir, değiştirebilir, dağıtabilirsiniz.
 genel kamu lisansı ile değişiklik yaptıysanız siz de o lisans ile vermelisiniz.
 public lisans gibi lisanslarda mozilla public lisansta referans vermen lazım ibaresi vardır. 
 creative commons lisansları var CC BY Atıf (Attribution) iconlar fontlar fotoğraflar bazı js kütüphaneleri
 bunlar içerik lisansları by cc bunların ne olduğuna bakmalı lisans ihlali yapmamalısınız.
-benim adımı geçirmelisiniz tarzında noncomercial ibaresi varsa ücretli bişey yapacaksanız onu kullanamaz satamazsınız
+benim adımı geçirmelisiniz tarzında noncomercial ibaresi varsa ücretli bişey yapacaksanız onu kullanamaz, satamazsınız
 kod geliştirirken internetten bulduğunuz bişeyi pata küte kodunuza gömemezsiniz arkadaşlar
 o lisansa telife uymalısınız
 copilot tarzı kod üretme yapay zeka papağan kodu nereden getirdiğine dair geliştiricileri de bilmiyor bu sebeple davalar başladı
@@ -102,7 +102,7 @@ html bir dil yazalım tarayıcı göstersin a href link var başka makaleyi gös
 ve bir protocol yazalım http yazıldı böyle başladı
 biraz da read only yerine bilgi girelim dediler html formlar başladı
 sonra tarayıcı kavgaları başladı
-netscape ve internet explorer arasında kavga başladı w3c consortium dinlemedi kafalarına göre taglar oluşturdu. netscape batttı yerine mozilla firefox kuruldu.
+netscape ve internet explorer arasında kavga başladı w3c consortium dinlemedi kafalarına göre taglar oluşturdu. netscape battı yerine mozilla firefox kuruldu.
 internetexplorer yerine chrome sonra safari 
 google chrome, fena değilmiş dedi safarinin kullandığı temelindeki kht kodunu kullandı ve geliştridi  
 
@@ -159,7 +159,7 @@ stok servisi ile konuşabilmeli
 ödeme sistemine haber verme kısmına gideceğim konuşmam gereken başka servisler var
 stok servisinin bana api sağlaması gerekiyor
 ekipler contracts üzerinde baştan anlaşır
-bu yüzden otomatik entegrasyon testlerine ihtiyacınız var, kontractı yanlış anlayığ yanlış implementasyon yaptıysanız misal
+bu yüzden otomatik entegrasyon testlerine ihtiyacınız var, kontraktı yanlış anlayıp yanlış implementasyon yaptıysanız misal
 
 product jre yeter
 geliştirme ortamına jdk jre gerek
@@ -223,7 +223,7 @@ rolebase access control yaptınız önden tanımlayarak
 
 jwt içine rolleri de göüyor yetkilendirmeyi de oauth ile yapıyorsunuz
 
-kullanıcı hangi yetkilere sahip olduğunu tutmak için ek tabla tutmanız gerekir ıdm üründe
+kullanıcı hangi yetkilere sahip olduğunu tutmak için ek table tutmanız gerekir ıdm üründe
 
 -- öğleden sonra
 
@@ -373,7 +373,7 @@ wlan llan loopback ve üzerine sanal makine engine ayağa kaldırınca içinde a
 dolayısıyla size 255.255... kaldı
 
 sanal ağlar nereden problem yaratıyor geliştiricilere
-ipler bağlı olduğu routing tsblosu ve firewall vardır prodcutionda çalışmazsa ipler arasında routing açık değildir, binding yapılmamıştır, firewall portu kapamıştır yani bir parça da network ihtiyacınız var
+ip.ler bağlı olduğu routing tablosu ve firewall vardır productionda çalışmazsa ip.ler arasında routing açık değildir, binding yapılmamıştır, firewall portu kapamıştır yani bir parça da network ihtiyacınız var
 
 servisleri doğrudan doğruya ip ile tanımlamayın domain name olsun
 etc dosyasına yazın domain name.ler üzerinden koşun ve adam gibi isim verin s001 ismi ip.den daha okunaklı değil :D
@@ -381,7 +381,7 @@ etc dosyasına yazın domain name.ler üzerinden koşun ve adam gibi isim verin 
 bir de disk sanallaştırma kısmı var
 rate 0 2 disk 
 rate10 6 disk 300gblık 6 disk takmam lazım ki ..
-dolayısıyla LVM logical volume management os.ye şu kdar disk ekle mount et lvm e diyoruz ki genişle hala yerel işletim sisteminden bahsediyorum
+dolayısıyla LVM logical volume management os.ye şu kadar disk ekle mount et lvm e diyoruz ki genişle hala yerel işletim sisteminden bahsediyorum
 donanımların kaç tane dsk yönetecek slotu olabilir
 NAS/SAN network area storage bu pcler size sadece disk alanı sağlıyor
 amazon s3 blob storage device  
@@ -396,7 +396,7 @@ kubernetes dağıtımları rancher openshift k3s vb
 
 docker compose birden fazla image 
 docker swarm çıktı sonradan 
-konteynerları yönetmek için birşey yazalım dedi google kubernetesi başlattı ama şimdi en çok kubernetes için kod yazan red hat.
+konteynerları yönetmek için birşey yazalım dedi google kubernetesi başlattı ama şimdi en çok kubernetes için kod yazan redhat.
 google, google cloud için lazım olan kadarını yazdı
 red hat rancher ile sürekli geliştirmeye devam ediyor
 
@@ -453,9 +453,9 @@ main ya da primary diyoruz
 primary db.ye tüm sorgularınız alırsınız başına bir iş gelirse diğerini devreye alırsınız
 
 LB      LB
-APP		APP + 1 + 2 
+APP	APP + 1 + 2 
 aktif	aktif
-DB		DB
+DB	DB
 aktif	pasif
 
 çökme gerekçesi diskte mi hata oldu donanım hatası mı os seviyesinde mi önce onu bulmalı
@@ -1384,7 +1384,8 @@ commitin hashını binarysini sha5ini vs yapmak gibi en zor haliyle mümkün leg
 git kullanmak kritik hale gelmiş durumda, localde de iki farklı remote yaparak çalışabilirsiniz. varlıgından haberiniz olmayan şey yoktur.
 var oldugunu bilseniz gerisini arar dener uygularsınız
 git için faydalı bir site; 
-https://learningitbbranching.js.org
+
+https://learngitbranching.js.org/
 
 
 rfc request for comment // şuna bakın bir yorumlasanıza demek
@@ -1446,6 +1447,98 @@ sadece bir gün tutmanızın hiç anlamı yok hiç tutmayın, anomali tespit ede
 erişim güvenliği nerede nasıl saklanacak gibi sorunlar da var, maskeleme yapmanız gerekebilir, 
 
 
+libre office online ile ortak çalışma collobration yapabilirsiniz
+opensuse linux distrosunu kullanıyoruz masaütünde, çünkü düzgün KDE dağıtımı hazırlarlar, gnome sevemedim ama ubuntu da iyidir 
+Snap, Ubuntu Linux dağıtımlarında da kullanılabilen yazılım paketleme biçimidir. Snap biçiminde paketleniş uygulamalar uygulama mağazası üzerinden kurulup kaldırılabilir.
+Postfix Mail Sunucusu kullanıyoruz
+kurumlar müşteri redhat peşinden gidince mecburen centos rocky vs kullanıyoruz
+ben zaten bir kere konfigüre edip heryere kullanıyorum çünkü ansible kullanıyorum
+:rocky 9.5 9.4 versiyonlarında kernel problemi yaşıyor musunuz Hocam?
+:yapay zeka hakkında ?
+mayısa dek ai içeren uygulama teslim etmek gerekiyor ama ai'den kasıt ney
+heuristic algorithms koymak yeterli deeplearning machine learning mi herhangi bir neural network koymak yeterli mi yapay sinir ağlarını doğal dil işleme için kullanmak amaçlanıyor
+en bariz ve en çok tartışılanı fikri mülkiyet hakkı
+bir de yapay zekayı eğittiğimiz bilgiyi filtreleyecek miyiz, biz ne kadar doğruyuz internet yalan haberle dolu, ya da ırkçılık yapan kesimle eğitilir de yapay zeka da öyle olursa?
+motivasyonumuz topluluktan aldığım bilgiyi topluma geri vermek bilgi paylaştıkça çoğalır bir matematik formulü kişiye ait olamaz
+anime vlogu: https://22dakika.org/gec-kalmis-yaz-posketi-serisi/comment-page-2/
+//Ders Sonu
+
+1. Mikroservis Mimarisi Nedir?
+Mikroservis mimarisi, büyük ve karmaşık yazılım sistemlerini küçük, bağımsız ve modüler hizmetlere (servisler) bölerek yönetmeyi amaçlayan bir mimari yaklaşımdır. Her mikroservis, belirli bir işlevi yerine getirir ve diğer servislerle API'ler aracılığıyla haberleşir.
+1.1 Mikroservislerin Temel Özellikleri
+Bağımsız Geliştirme ve Dağıtım: Her servis bağımsız olarak geliştirilebilir ve dağıtılabilir.
+Ölçeklenebilirlik: Gerektiğinde belirli servisleri yatay olarak ölçekleyebilirsiniz.
+Bağımsız Veri Yönetimi: Her servis kendi veritabanına sahiptir.
+Farklı Teknoloji Kullanımı: Her mikroservis, ihtiyacına uygun farklı bir teknoloji kullanabilir.
+1.2 Gerçekten Mikroservis Kullanmalı mıyız?
+Mikroservisler, büyük ve ölçeklenebilir sistemler için avantajlar sunsa da, bazı projeler için gereksiz karmaşıklık yaratabilir.
+Ölçekleme ihtiyacı yoksa: Tek bir uygulama yeterliyse, monolitik yapı daha verimli olabilir.
+Sürekli dağıtım ve güncelleme gerektirmeyen sistemler için: Mikroservislerin dağıtımı ve yönetimi karmaşıktır.
+Bağımlılıklar yönetilemeyecek seviyede ise: Mikroservisler, bağımlılıklar nedeniyle daha fazla operasyonel yük getirebilir.
+2. Servisler ve İletişim Yöntemleri
+2.1 Servis Türleri
+Bir yazılım bileşeni, farklı sistemlerin veya modüllerin birbirleriyle haberleşmesini sağlayan bir arabirim sunar. Servisler aşağıdaki türlerde olabilir:
+SoA (Service-Oriented Architecture): Büyük kurumsal sistemlerde kullanılır.
+RPC (Remote Procedure Call) / RMI (Remote Method Invocation) / IPC (Inter-Process Communication): Düşük seviyede işlem çağırma yöntemleridir.
+Web Servisler: İletişim standartları HTTP, SOAP, REST, gRPC kullanır.
+2.2 REST, SOAP ve gRPC Karşılaştırması
+SOAP: XML tabanlıdır, karmaşık güvenlik mekanizmaları sunar.
+REST: Hafif, JSON/XML destekler, HTTP metodlarını kullanır.
+gRPC: Yüksek performanslı, binary protokol kullanır, büyük ölçekli sistemler için idealdir.
+3. Dağıtık Sistemlerde Veri Yönetimi
+3.1 Veritabanı Yönetimi
+Her mikroservisin kendi veritabanı olmalı (Database per Service).
+Ortak veritabanı kullanımı, bağımsızlık ilkesini ihlal eder.
+NoSQL (MongoDB, Redis) ve SQL (PostgreSQL, MySQL) kullanımı proje gereksinimlerine göre belirlenmeli.
+3.2 Dağıtık Transaction Yönetimi
+Mikroservisler arasında transaction yönetmek zor olabilir. Bunu sağlamak için:
+Saga Pattern: Dağıtık transaction yönetimi için kullanılır.
+Event Sourcing: İşlemler kaydedilir ve geri alınabilir.
+Change Data Capture (CDC): Veri değişikliklerini izleme ve senkronizasyon sağlar.
+4. API Yönetimi ve Servis Keşfi
+4.1 API Gateway Kullanımı
+Mikroservisler için API Gateway kullanımı aşağıdaki avantajları sağlar:
+Güvenlik ve yetkilendirme yönetimi (JWT, OAuth, API anahtarları).
+Yük dengeleme ve throttling (Belirli bir süre içinde gelen istekleri kontrol etme).
+Cacheleme ve veri sıkıştırma (Veri transferini optimize etme).
+Loglama ve izleme mekanizmaları (Trace ID, OpenTracing).
+4.2 Service Discovery
+Servislerin birbirini keşfedebilmesi için kullanılan sistemler:
+DNS tabanlı keşif: Kubernetes Service Discovery.
+Zookeeper, Consul, Eureka: Dinamik servis keşfi.
+5. Yüksek Erişilebilirlik ve Ölçeklenebilirlik
+5.1 Yüksek Erişilebilirlik İçin Kümeleme (Clustering)
+Replica Set (PostgreSQL, MongoDB): Verilerin çoğaltılması ve yük dengeleme.
+Failover Mekanizmaları: Patroni gibi araçlarla otomatik veri kurtarma.
+Load Balancer Kullanımı: İstekleri farklı sunuculara yönlendirme.
+5.2 Yük Testi ve Performans Optimizasyonu
+JMeter, Gatling ile yük testi yapılmalı.
+Network izleme araçları (Zabbix, Prometheus, Grafana) kullanılmalı.
+6. DevOps, CI/CD ve Otomasyon
+6.1 CI/CD Süreçleri
+Sürekli Entegrasyon (Continuous Integration - CI): Kodun düzenli olarak birleştirilmesi ve test edilmesi.
+Sürekli Dağıtım (Continuous Deployment - CD): Kodun üretim ortamına otomatik olarak dağıtılması.
+Jenkins, GitLab CI, Tekton, ArgoCD gibi araçlar kullanılmalı.
+6.2 Infrastructure as Code (IaC) ve GitOps
+Terraform ve Ansible ile altyapı otomasyonu.
+GitOps ile konfigürasyonların versiyonlanması ve yönetilmesi.
+7. Güvenlik ve Yetkilendirme
+7.1 Kimlik Doğrulama ve Yetkilendirme
+OAuth 2.0 ve OpenID Connect kullanımı.
+JWT (JSON Web Token) ile yetkilendirme mekanizmaları.
+LDAP ve Active Directory entegrasyonu.
+7.2 Güvenlik Açıkları ve Önlemler
+SQL Injection, XSS, CSRF gibi saldırılara karşı önlemler.
+OWASP Top 10 güvenlik açıklarına karşı bilinçli kod yazımı.
+Statik kod analizi araçları (SonarQube) ile güvenlik testleri.
+8. Sonuç ve Özet
+Mikroservisler, büyük ölçekli sistemler için birçok avantaj sunar, ancak yanlış kullanıldığında karmaşıklık ve operasyonel yük getirebilir.
+Mikroservisleri uygularken dikkat edilmesi gereken temel noktalar:
+Bağımsız servisler
+API yönetimi ve güvenlik
+Transaction ve veri tutarlılığı
+CI/CD ve DevOps entegrasyonu
+Yüksek erişilebilirlik ve ölçeklenebilirlik.
 
 
 
